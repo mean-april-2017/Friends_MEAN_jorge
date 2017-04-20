@@ -1,0 +1,7 @@
+<div>
+  <h1>{{ friend.firstName }} {{ friend.lastName}}</h1>
+  <h4>Birthday: {{friend.birthDay | date: 'MM-dd-yyyy' }}</h4>
+  <p><a href="/#!/">Back</a></p>
+  <p><a href="#!/friends/update/{{friend._id}}">Update {{friend.firstName}}</a></p>
+
+</div>
